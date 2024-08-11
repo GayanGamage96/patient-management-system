@@ -11,12 +11,9 @@ export const {
   NEXT_PUBLIC_ENDPOINT: ENDPOINT,
 } = process.env;
 
-console.log(ENDPOINT,"break", PROJECT_ID,"break",API_KEY)
 
 // Log environment variables for debugging
-console.log(`ENDPOINT: '${ENDPOINT}'`,ENDPOINT);
-console.log(`PROJECT_ID: '${PROJECT_ID}'`);
-console.log(`API_KEY: '${API_KEY}'`);
+
 
 // if (!ENDPOINT || !PROJECT_ID || !API_KEY) {
 //   throw new Error("Missing or invalid environment variables!");
